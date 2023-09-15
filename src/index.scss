@@ -1,0 +1,47 @@
+//variables sass
+$color-box: #FF9C33;
+$border-none: none;
+$letter-color: black;
+$input-border: 10px;
+
+@mixin custom-input-search(
+  $border: $border-none, 
+  $height: 33px, 
+  $width: 475px, 
+  $border-radius: $input-border ) {
+    border: $border;
+    height: $height;
+    width: $width;
+    border-radius: $border-radius;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: $letter-color;
+  margin: 0;
+}
+
+.box-main {
+  background-color: $color-box;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.img-logo {
+  margin-left: -80px;
+}
+
+.input-search {
+  @include custom-input-search;
+}
+
+.input-btn {
+  @include custom-input-search($height: 35px,$width: 46px);
+  cursor: pointer;
+}

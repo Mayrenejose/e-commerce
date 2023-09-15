@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: black;
+  margin: 0;
+}
+
+.box-main {
+  background-color: #FF9C33;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.img-logo {
+  margin-left: -80px;
+}
+
+.input-search {
+  border: none;
+  height: 33px;
+  width: 475px;
+  border-radius: 10px;
+}
+
+.input-btn {
+  border: none;
+  height: 35px;
+  width: 46px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
